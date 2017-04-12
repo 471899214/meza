@@ -198,4 +198,3 @@ class TestIterStringIO:
         nt.assert_equal(kw.one, 1)
         nt.assert_equal(kw['two'], 2)
         nt.assert_equal(dict(kw), {'one': 1, 'two': 2})
-
